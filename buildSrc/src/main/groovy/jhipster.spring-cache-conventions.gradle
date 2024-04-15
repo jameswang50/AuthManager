@@ -1,0 +1,6 @@
+dependencies {
+    implementation "org.springframework.boot:spring-boot-starter-cache"
+    implementation "javax.cache:cache-api"
+    implementation group: "org.ehcache", name: "ehcache", classifier: "jakarta"
+    // jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
+}
